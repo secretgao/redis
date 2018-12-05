@@ -159,23 +159,27 @@ OK
 
 ```
 
-![Alt text](./Catch775F(11-28-(12-05-13-56-33).jpg)
+![Alt text](./Catch11-28-17-212-05-13-56-33.jpg)
+
 
 
 
 **########################一条华丽的分割线########################**
 #### 一个简单的流程图
-![Alt text](./blob/master/img/Catch4A9611-28img/-12-05-13-56-33.jpg)
+
+![Alt text](./Catch4A9611-28-12-05-13-56-33.jpg)
 
 ###### slave 宕机
 * 从节点宕机时 还是比较好处理的  可以先把连接宕机的客户端配置 修改成没有宕机的从节点配置 ，待宕机的从节点修复之后 在把配置文件修改过来
-![Alt text](./img/Catch42F111-28-12-05-13-56-33.jpg)
+![Alt text](./Catch42F111-28-12-05-13-56-33.jpg)
+
 
 
 ######  master 宕机
 * 情景复现 手动kill  主节点进程
 
-![Alt text](./img/Catch8B5D11-28-12-05-13-56-33.jpg)
+![Alt text](./Catch8B5D11-28-12-05-13-56-33.jpg)
+
 
 ```
 [root@VM_0_12_centos data]# ps aux|grep redis
@@ -419,9 +423,9 @@ repl_backlog_histlen:444476
 * redis-sentinel 服务已经 自动切换了主从
 * 把7002 变成了master   
 
-![Alt text](./img/Catch775F11-28-12-05-13-56-33.jpg)
+![Alt text](./Catch775F11-28-12-05-13-56-33.jpg)
 
-![Alt text](./img/CatchE5E511-28-12-05-13-56-33.jpg)
+![Alt text](./CatchE5E511-28-12-05-13-56-33.jpg)
 
 ###三个定时任务
 
