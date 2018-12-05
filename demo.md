@@ -427,7 +427,7 @@ repl_backlog_histlen:444476
 
 ![Alt text](https://github.com/secretgao/redis/blob/master/img/CatchE5E511-28-12-05-13-56-33.jpg)
 
-###三个定时任务
+### 三个定时任务
 
 - 每10s 每个sentinel 对master 和slave执行info
     - 发现slave 节点
