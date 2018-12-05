@@ -178,7 +178,7 @@ OK
 ######  master 宕机
 * 情景复现 手动kill  主节点进程
 
-![Alt text](./Catch8B5D11-28-12-05-13-56-33.jpg)
+![Alt text](https://github.com/secretgao/redis/blob/master/img/Catch8B5D11-28-12-05-13-56-33.jpg)
 
 
 ```
