@@ -159,7 +159,7 @@ OK
 
 ```
 
-![Alt text](https://github.com/secretgao/redis/blob/master/img/Catch775F(11-28-(12-05-13-56-33).jpg)
+![Alt text](./Catch775F(11-28-(12-05-13-56-33).jpg)
 
 
 
